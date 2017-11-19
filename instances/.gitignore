@@ -1,0 +1,3 @@
+*.txt
+gen.done
+__pycache__
