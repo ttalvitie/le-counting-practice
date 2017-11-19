@@ -5,6 +5,7 @@ Extensions in Practice: MCMC versus Exponential Monte Carlo
 
 The Makefile in the root can be used to compile all solutions and generate all
 instances:
+
 ```$ make```
 
 The running make in the subdirectories can be used to compile parts
@@ -28,22 +29,29 @@ options, and outputs the estimate for the number of linear extensions. Some
 solutions also write extra information to the standard error stream.
 
 Telescopic Product:
+
 ```$ solutions/telescopic-product/basic INSTANCE SwapLinextSampler```
 
 Decomposition Telescopic Product:
+
 ```$ solutions/telescopic-product/decomposition INSTANCE SwapLinextSampler```
 
 Decomposition Telescopic Product using the Gibbs sampler:
+
 ```$ solutions/telescopic-product/decomposition INSTANCE GibbsLinextSampler```
 
 Tootsie Pop:
+
 ```$ solutions/tpa/count INSTANCE```
 
 Exact Dynamic Programming:
+
 ```$ solutions/lecount/lecount INSTANCE --algorithm=dp```
 
 Adaptive Relaxation Monte Carlo:
+
 ```$ solutions/lecount/lecount INSTANCE --algorithm=armc```
 
 Variable Elimination via Inclusion-Exclusion (exact):
+
 ```$ solutions/lecount/lecount INSTANCE --algorithm=veie```
