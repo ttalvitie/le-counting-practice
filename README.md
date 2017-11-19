@@ -26,7 +26,8 @@ GraphViz).
 Each solution program in solutions/ takes the name of the adjacency matrix file
 as the first command line argument, possibly followed by solution-specific
 options, and outputs the estimate for the number of linear extensions. Some
-solutions also write extra information to the standard error stream.
+solutions also write extra information to the standard error stream. All
+solutions support partial orders with at most 512 elements.
 
 Telescopic Product:
 
