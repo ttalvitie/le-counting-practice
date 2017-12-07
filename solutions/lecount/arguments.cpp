@@ -20,7 +20,7 @@ void print_usage(const char *cmd)
 	printf(" --ccs=[none|dfs|covers|auto]       how to find connected components\n");
 	printf(" --hub=[none|best|perfect]          whether to use hub splits\n");
 	printf(" --sort=[yes|no]                    whether to sort the poset topologically\n");
-	printf(" --visualize=[sGNHptcb]             visualization options\n");
+	printf(" --visualize=[slLHpf]               visualization options\n");
 	printf(" --sample                           number of linear extensions to sample after counting\n");
 	printf(" --cache-params                     cache size parameters\n");
 	printf("\nOptions for 'veie':\n");
