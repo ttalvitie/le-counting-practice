@@ -1,5 +1,6 @@
-The code used for the experiments in the AAAI 2018 paper Counting Linear
-Extensions in Practice: MCMC versus Exponential Monte Carlo
+# Counting Linear Extensions in Practice
+
+The code used for the experiments in the IJCAI 2018 paper A Scalable Scheme for Counting Linear Extensions and AAAI 2018 paper Counting Linear Extensions in Practice: MCMC versus Exponential Monte Carlo
 
 ## COMPILING
 
@@ -28,6 +29,30 @@ as the first command line argument, possibly followed by solution-specific
 options, and outputs the estimate for the number of linear extensions. Some
 solutions also write extra information to the standard error stream. All
 solutions support partial orders with at most 512 elements.
+
+### IJCAI 2018: A Scalable Scheme for Counting Linear Extensions
+
+Relaxation Tootsie Pop:
+
+```$ solutions/relaxation-tpa/count INSTANCE```
+
+Trivial Relaxation Tootsie Pop:
+
+```$ solutions/relaxation-tpa/trivial INSTANCE```
+
+Telescopic Product:
+
+```$ solutions/telescopic-product/decomposition INSTANCE GibbsLinextSampler```
+
+Extension Tootsie Pop:
+
+```$ solutions/extension-tpa/count INSTANCE```
+
+Adaptive Relaxation Monte Carlo:
+
+```$ solutions/lecount/lecount INSTANCE --algorithm=armc```
+
+### AAAI 2018: Counting Linear Extensions in Practice: MCMC versus Exponential Monte Carlo
 
 Telescopic Product:
 

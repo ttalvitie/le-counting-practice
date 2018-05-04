@@ -1,0 +1,7 @@
+count
+trivial
+count_scan
+count_scan_optimized
+count_pcg32
+count_pcg32_scan
+count_pcg32_scan_avx2
