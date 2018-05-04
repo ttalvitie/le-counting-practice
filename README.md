@@ -56,8 +56,10 @@ SAT Encodings #1 and #2:
 
 These output a DIMACS CNF encoding for the instance, which can then be used as input for a SAT model counter (D4, sharpSAT and ApproxMC2 in the paper) to count the linear extensions.
 
-```$ solutions/sat/encoding.py INSTANCE 1
-$ solutions/sat/encoding.py INSTANCE 2```
+```
+$ solutions/sat/encoding.py INSTANCE 1
+$ solutions/sat/encoding.py INSTANCE 2
+```
 
 ### AAAI 2018: Counting Linear Extensions in Practice: MCMC versus Exponential Monte Carlo
 
