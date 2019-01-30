@@ -1,6 +1,6 @@
 # Counting Linear Extensions in Practice
 
-The code used for the experiments in the IJCAI 2018 paper A Scalable Scheme for Counting Linear Extensions and AAAI 2018 paper Counting Linear Extensions in Practice: MCMC versus Exponential Monte Carlo
+The code used for the experiments in the IJCAI 2018 paper [A Scalable Scheme for Counting Linear Extensions](https://www.ijcai.org/proceedings/2018/0710.pdf) and AAAI 2018 paper [Counting Linear Extensions in Practice: MCMC versus Exponential Monte Carlo](https://tuhat.helsinki.fi/portal/services/downloadRegister/120857481/paper.pdf).
 
 ## COMPILING
 
